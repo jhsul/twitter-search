@@ -7,11 +7,11 @@ lexer.rule(/[ \t\r\n]+/, (ctx, match) => {
   ctx.ignore();
 });
 
-lexer.rule(/[a-zA-Z0-9]+(_[a-zA-Z0-9]+)?:[a-zA-Z_0-9]+/, (ctx, match) => {
+lexer.rule(/[a-zA-Z0-9_]+:[a-zA-Z0-9_]+/, (ctx, match) => {
   ctx.accept("query");
 });
 
-lexer.rule(/[a-zA-Z0-9]+/, (ctx, match) => {
+lexer.rule(/[a-zA-Z0-9_]+/, (ctx, match) => {
   ctx.accept("term");
 });
 
