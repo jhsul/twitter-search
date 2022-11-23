@@ -25,7 +25,7 @@ const Search: FunctionComponent = () => {
             className="input-group-text"
             style={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }}
           >
-            🪙
+            🔎
           </span>
         </div>
         <input
