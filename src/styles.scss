@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.app {
+  width: 100%;
+  //   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container {
+  margin-top: 20pt;
+  //   border: 1px solid green;
+  width: min(100%, 400pt);
+  display: flex;
+  flex-direction: column;
+}
