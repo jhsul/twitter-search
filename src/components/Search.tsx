@@ -57,7 +57,7 @@ const Search: FunctionComponent = () => {
         ))}
       </div>
       <a
-        href="https://gitub.com/jhsul/twitter-search"
+        href="https://github.com/jhsul/twitter-search"
         target="_blank"
         style={{ alignSelf: "center" }}
       >
